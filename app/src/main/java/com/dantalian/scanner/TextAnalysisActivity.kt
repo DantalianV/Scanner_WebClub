@@ -28,7 +28,7 @@ class TextAnalysisActivity : AppCompatActivity() {
 
         val urlList = getURLs(text)
         val phoneList = getPhoneNumbers(text)
-        val temp = urlList.size
+        var temp = urlList.size
 
         val arrayAdapter = ArrayAdapter<String>(this, R.layout.support_simple_spinner_dropdown_item, urlList + phoneList)
         binding.list.adapter = arrayAdapter
