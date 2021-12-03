@@ -41,7 +41,7 @@ class TextAnalysisActivity : AppCompatActivity() {
 
         binding.list.setOnItemClickListener { _, _, position, _ ->
 
-            if(temp < position) {
+            if(urlList.contains(arrayAdapter.getItem(position))) {
                 val url = arrayAdapter.getItem(position)
                 val i = Intent(Intent.ACTION_VIEW)
                 i.data = Uri.parse(url)
