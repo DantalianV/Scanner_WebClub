@@ -19,3 +19,4 @@ Task ID: Scanner (Android App)
 4. Their is copy button that copies all data to clipboard
 
 ## Demo Vedio link
+https://drive.google.com/file/d/1y5dLa5vZAxGBPBFXNuAYrjdAFHwGn7HZ/view?usp=sharing
